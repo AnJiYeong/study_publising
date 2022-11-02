@@ -7,8 +7,134 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <div>기본정보</div>
+    <!-- <div>기본정보</div>
+    <table border="1">
+      <tr>
+        <th>이름</th>
+        <form action="" method="">
+          <div>
+            <label for="">이름</label>
+            <input type="text" name="name" />
+          </div>
+        </form>
+      </tr>
+      <tr>
+        <th>아이디</th>
+        <form action="" method="get"></form>
+      </tr>
+      <tr>
+        <th>비밀번호</th>
+      </tr>
+      <tr>
+        <th>비밀번호 확인</th>
+      </tr>
+      <tr>
+        <th>생년월일/성별</th>
+      </tr>
+      <tr>
+        <th>이메일</th>
+      </tr>
+      <tr>
+        <th>연락처</th>
+      </tr>
+      <tr>
+        <th>우편번호</th>
+      </tr>
+      <tr>
+        <th>주소</th>
+      </tr>
+      <tr>
+        <th>정보수신 여부</th>
+      </tr>
+    </table> -->
+
     <form action="">
+      <table border="1">
+        <h4>기본정보</h4>
+        <tr>
+          <th>✔ 이름</th>
+          <td>
+            <input type="text" name="name" />
+          </td>
+        </tr>
+        <tr>
+          <th>✔ 아이디</th>
+          <td>
+            <input type="text" name="id" />
+            <button type="submit">✔ 아이디중복확인</button>
+            <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>✔ 비밀번호</th>
+          <td>
+            <input type="text" name="password" />
+            <div>
+              6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.
+            </div>
+            <div>3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.</div>
+          </td>
+        </tr>
+        <tr>
+          <th>✔ 비밀번호 확인</th>
+          <td>
+            <input type="text" name="password_check" />
+          </td>
+        </tr>
+        <tr>
+          <th>✔ 생년월일/성별</th>
+          <td>
+            <input type="text" name="Date_of_birth" />
+            <input type="date" name="Date" id="" />
+            <input type="radio" name="gender" value="male" id="male_id" />
+            <label for="male_id">남자</label>
+            <input type="radio" name="gender" value="female" id="female_id" />
+            <label for="female_id">여자</label>
+          </td>
+        </tr>
+        <tr>
+          <th>✔ 이메일</th>
+          <td>
+            <input type="text" name="email_id" />
+            @
+            <input type="text" name="email_platform" />
+            <select name="platforms" id="">
+              <option value="choice">선택</option>
+              <option value="naver.com">naver.com</option>
+              <option value="gmail.com">gmail.com</option>
+              <option value="daum.net">daum.net</option>
+            </select>
+            <button type="submit">✔ 인증코드 발송</button>
+            <div>
+              <input type="text" name="email_code" />
+              <button type="submit">✔ 인증확인</button>
+            </div>
+          </td>
+        </tr>
+        <th>✔ 연락처</th>
+        <td>
+          <label for="">휴대전화</label>
+          <select name="cellphone" id="">
+            <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+          </select>
+          -
+          <input type="text" name="phone_middle" />
+          -
+          <input type="text" name="phone_last" />
+          <div>
+            <label for="">일반전화</label>
+            <select name="landline" id="">
+              <option value=""></option>
+            </select>
+          </div>
+        </td>
+      </table>
+    </form>
+
+    <!-- <form action="">
       <div>
         <label for="">이름</label>
         <input type="text" name="name" />
@@ -31,7 +157,12 @@
         <input type="text" name="email_id" />
         @
         <input type="text" name="email_platform" />
-        <select name="platforms" id=""></select>
+        <select name="platforms" id="">
+          <option value="선택">선택</option>
+          <option value="naver.com">naver.com</option>
+          <option value="gmail.com">gmail.com</option>
+          <option value="daum.net">daum.net</option>
+        </select>
       </div>
       <div>
         연락처
@@ -71,7 +202,7 @@
           <label for="">SMS로 수신하겠습니다.</label>
         </div>
       </div>
-    </form>
+    </form> -->
 
     <!-- <form action="">
       <table>
