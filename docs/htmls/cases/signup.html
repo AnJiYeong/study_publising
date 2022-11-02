@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div>기본정보</div>
+    <form action="">
+      <div>
+        <label for="">이름</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="">아이디</label>
+        <input type="text" name="id" />
+        <button type="submit">아이디중복확인</button>
+      </div>
+      <div>
+        <label for="">비밀번호</label>
+        <input type="text" name="password" />
+      </div>
+      <div>
+        <label for="">비밀번호 확인</label>
+        <input type="text" name="password_check" />
+      </div>
+      <div>
+        <label for="">이메일</label>
+        <input type="text" name="email_id" />
+        @
+        <input type="text" name="email_platform" />
+        <select name="platforms" id=""></select>
+      </div>
+      <div>
+        연락처
+        <label for="">휴대전화</label>
+        <input type="text" name="cellphone" />
+        <div>
+          <label for="">일반전화</label>
+          <input type="text" name="landline" />
+        </div>
+        <div>
+          <label for="">우편번호</label>
+          <input type="text" name="postal_code" />
+          <button type="submit">주소검색</button>
+        </div>
+        <div>
+          <label for="">주소</label>
+          <input type="text" name="address" />
+          <div>
+            <input type="text" name="better_address" />
+          </div>
+        </div>
+        <div>
+          정보수신 여부 서비스 및 이벤트 소식을
+          <input
+            type="checkbox"
+            name="email_reception."
+            value="email_reception"
+            id="email_reception_id"
+          />
+          <label for="">Email로 수신하겠습니다.</label>
+          <input
+            type="checkbox"
+            name="sms_email_reception"
+            value="sms_email_reception"
+            id="sms_email_reception_id"
+          />
+          <label for="">SMS로 수신하겠습니다.</label>
+        </div>
+      </div>
+    </form>
+
+    <!-- <form action="">
+      <table>
+        <tr>
+          <th>기본정보</th>
+        </tr>
+        <tr>
+          <th>이름</th>
+          <input type="text" name="name" />
+        </tr>
+      </table>
+    </form> -->
+    <h3>back <a href="../../index.html">index</a></h3>
+  </body>
+</html>
