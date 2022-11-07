@@ -1,0 +1,13 @@
+* {
+  border: 1px solid gray;
+  font-family: "Yeon Sung", cursive;
+}
+
+.text-align {
+  text-align: center;
+  /*width: 50%;*/
+}
+
+.text-decoration {
+  text-decoration: none;
+}
