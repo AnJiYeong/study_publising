@@ -1,0 +1,25 @@
+.text-size {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text-size-20 {
+  font-size: 20px;
+}
+
+.background {
+  background-color: yellow;
+}
+
+.list-ul {
+  display: inline-block;
+}
+
+.list-li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.text-align {
+  text-align: center;
+}
