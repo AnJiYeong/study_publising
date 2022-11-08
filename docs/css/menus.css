@@ -7,8 +7,9 @@
   font-size: 20px;
 }
 
-.background {
+.background_align {
   background-color: yellow;
+  text-align: center;
 }
 
 .list-ul {
@@ -19,8 +20,4 @@
 .list-li {
   display: inline-block;
   padding-right: 30px;
-}
-
-.text-align {
-  text-align: center;
 }
