@@ -1,0 +1,43 @@
+.title {
+  width: 250px;
+}
+
+.text {
+  width: 250px;
+  height: 200px;
+}
+
+.margin {
+  margin: 15px 0px 10px 130px;
+}
+
+.outline {
+  padding-bottom: 30px;
+}
+
+.width {
+  width: 100%;
+}
+
+.width-title {
+  width: 300px;
+  height: 35px;
+}
+
+.width-button {
+  width: 70px;
+}
+
+.background {
+  background-color: rgb(255, 160, 122);
+  color: white;
+}
+
+.background-yellow {
+  background-color: rgb(255, 254, 224);
+}
+
+.table_outline {
+  padding: 30px 15px 0px 15px;
+  border-top: 2px solid rgb(189, 189, 189);
+}
