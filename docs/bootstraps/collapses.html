@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Collapses</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,11 +17,27 @@
     <div class="container">
       <div class="fs-3">Collapses</div>
       <div>
-        <button class="btn btn-primary">link with href</button>
+        <a
+          class="btn btn-primary"
+          href="#collapseTarget"
+          data-bs-toggle="collapse"
+        >
+          link with href
+        </a>
+        <button
+          class="btn btn-primary"
+          data-bs-target="#collapseTarget"
+          data-bs-toggle="collapse"
+        >
+          link with
+        </button>
       </div>
       <div>
-        <div class="card card-body">
-          모로코, 승부차기로 스페인 꺾고 첫 8강…‘하무스 해트트릭’ 포르투갈도 8강
+        <div class="collapse" id="collapseTarget">
+          <div class="card card-body">
+            모로코, 승부차기로 스페인 꺾고 첫 8강…‘하무스 해트트릭’ 포르투갈도
+            8강
+          </div>
         </div>
       </div>
     </div>
